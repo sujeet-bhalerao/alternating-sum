@@ -79,7 +79,7 @@ def conjecture_sum(n):
 
 
 
-n_range = range(2, 200)
+n_range = range(2, 210)
 
 sum_values = []
 
@@ -93,7 +93,7 @@ with open("S(n)_values.txt", "w") as sum_file:
             sum_value = conjecture_sum(n)
             save_conjecture_sum(n, sum_value)
         sum_values.append(sum_value)
-        sum_file.write(f"n = {n} sum: {sum_value}\n")
+        sum_file.write(f"n = {n} S(n): {sum_value}\n")
         print(f"Computation of sum for n = {n} is complete.")
 
 
