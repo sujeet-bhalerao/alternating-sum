@@ -79,7 +79,7 @@ def conjecture_sum(n):
 
 
 
-n_range = range(2, 210)
+n_range = range(2, 500)
 
 sum_values = []
 
