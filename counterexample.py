@@ -75,19 +75,23 @@ def conjecture_sum(n):
     return total_sum
 
 
-n_range = range(2, 500)
+n_range = range(2, 200)
 
 sum_values = []
 
-for n in n_range:
-    preprocessed_sum = load_conjecture_sum(n)
-    if preprocessed_sum is not None:
-        sum_value = preprocessed_sum
-    else:
-        sum_value = conjecture_sum(n)
-        save_conjecture_sum(n, sum_value)
-    sum_values.append(sum_value)
-    print(f"Computation of sum for n = {n} is complete.")
+
+with open("conjecture_sum_values.txt", "w") as sum_file:
+    for n in n_range:
+        preprocessed_sum = load_conjecture_sum(n)
+        if preprocessed_sum is not None:
+            sum_value = preprocessed_sum
+        else:
+            sum_value = conjecture_sum(n)
+            save_conjecture_sum(n, sum_value)
+        sum_values.append(sum_value)
+        sum_file.write(f"n = {n}, Conjectured sum: {sum_value}\n")
+        print(f"Computation of sum for n = {n} is complete.")
+
 
 
 sum_values = []
