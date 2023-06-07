@@ -4,7 +4,7 @@ from math import floor
 import matplotlib.pyplot as plt
 
 def save_sum_sk(k, sum_value):
-    directory = "sk_sum"
+    directory = "Sh,k/sk_sum"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
@@ -13,7 +13,7 @@ def save_sum_sk(k, sum_value):
 
 def load_sum_sk(k):
     try:
-        with open(f"sk_sum/k_{k}.json", 'r') as file:
+        with open(f"Sh,k/sk_sum/k_{k}.json", 'r') as file:
             data = json.load(file)
         return data["sum_value"]
     except FileNotFoundError:
@@ -24,7 +24,7 @@ def S(h, k):
 
 def sum_sk(k):
     total_sum = 0
-    with open("S_hk_values.txt", "a") as s_file:
+    with open("Sh,k/S_hk_values.txt", "a") as s_file:
         for h in range(1, k):
             S_hk_value = S(h, k)
             total_sum += S_hk_value
@@ -34,7 +34,7 @@ def sum_sk(k):
 k_range = range(2, 500)
 sk_values = []
 
-with open("sk_values.txt", "w") as sk_file:
+with open("Sh,k/sk_values.txt", "w") as sk_file:
     for k in k_range:
         preprocessed_sum = load_sum_sk(k)
         if preprocessed_sum is not None:
@@ -56,4 +56,4 @@ plt.title("S(k) vs k")
 plt.grid()
 
 # Save the plot
-plt.savefig("sk_plot.png")
+plt.savefig("Sh,k/sk_plot.png")
