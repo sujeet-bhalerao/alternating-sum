@@ -103,6 +103,6 @@ for n in n_range:
 plt.plot(n_range, sum_values)
 plt.xlabel('n')
 plt.ylabel('sum of (-1)^(l+1) S(n,l) over l from 1 to n-1')
-plt.title('Sum of S(n,l) over l vs. n')
+plt.title('sum_l of (-1)^(l+1) S(n,l) vs. n')
 plt.grid()
 plt.savefig("conjecture_sum_plot.png")
