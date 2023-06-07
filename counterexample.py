@@ -63,16 +63,20 @@ def load_Si_sets(n, l):
 
 def conjecture_sum(n):
     total_sum = 0
-    for l in range(1, n):
-        preprocessed_Si = load_Si_sets(n, l)
-        if preprocessed_Si:
-            Si = preprocessed_Si
-            S_value = sum(((-1) ** (i + 1)) * len(Si[i]) for i in range(1, l + 1))
-        else:
-            S_value, Si = S(n, l)
+    with open("S(n,l)_values.txt", "a") as s_file:
+        for l in range(1, n):
+            preprocessed_Si = load_Si_sets(n, l)
+            if preprocessed_Si:
+                Si = preprocessed_Si
+                S_value = sum(((-1) ** (i + 1)) * len(Si[i]) for i in range(1, l + 1))
+            else:
+                S_value, Si = S(n, l)
 
-        total_sum += ((-1) ** (l + 1)) * S_value
+            total_sum += ((-1) ** (l + 1)) * S_value
+            s_file.write(f"S({n}, {l}) = {S_value}\n")
+
     return total_sum
+
 
 
 n_range = range(2, 200)
@@ -80,7 +84,7 @@ n_range = range(2, 200)
 sum_values = []
 
 
-with open("conjecture_sum_values.txt", "w") as sum_file:
+with open("S(n)_values.txt", "w") as sum_file:
     for n in n_range:
         preprocessed_sum = load_conjecture_sum(n)
         if preprocessed_sum is not None:
@@ -89,7 +93,7 @@ with open("conjecture_sum_values.txt", "w") as sum_file:
             sum_value = conjecture_sum(n)
             save_conjecture_sum(n, sum_value)
         sum_values.append(sum_value)
-        sum_file.write(f"n = {n}, Conjectured sum: {sum_value}\n")
+        sum_file.write(f"n = {n} sum: {sum_value}\n")
         print(f"Computation of sum for n = {n} is complete.")
 
 
@@ -105,4 +109,4 @@ plt.xlabel('n')
 plt.ylabel('sum of (-1)^(l+1) S(n,l) over l from 1 to n-1')
 plt.title('sum_l of (-1)^(l+1) S(n,l) vs. n')
 plt.grid()
-plt.savefig("conjecture_sum_plot.png")
+plt.savefig("sum_plot.png")
