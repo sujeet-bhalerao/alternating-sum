@@ -19,7 +19,6 @@ def load_conjecture_sum(n):
     except FileNotFoundError:
         return None
 
-
 def S(n, l):
     Si = [set() for _ in range(l+1)]
 
@@ -77,12 +76,9 @@ def conjecture_sum(n):
 
     return total_sum
 
-
-
-n_range = range(2, 500)
+n_range = range(2, 280)
 
 sum_values = []
-
 
 with open("S(n)_values.txt", "w") as sum_file:
     for n in n_range:
@@ -96,8 +92,6 @@ with open("S(n)_values.txt", "w") as sum_file:
         sum_file.write(f"n = {n} S(n): {sum_value}\n")
         print(f"Computation of sum for n = {n} is complete.")
 
-
-
 sum_values = []
 
 for n in n_range:
@@ -109,4 +103,4 @@ plt.xlabel('n')
 plt.ylabel('sum of (-1)^(l+1) S(n,l) over l from 1 to n-1')
 plt.title('sum_l of (-1)^(l+1) S(n,l) vs. n')
 plt.grid()
-plt.savefig("sum_plot.png")
+plt.savefig("sum_S(n)_plot.png")
