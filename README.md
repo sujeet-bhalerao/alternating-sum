@@ -1,0 +1,1 @@
+This repository stores calculations and plots for an alternating sum.
