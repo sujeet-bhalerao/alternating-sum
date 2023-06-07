@@ -158,3 +158,4 @@ n = 158, Conjectured sum: 317
 n = 159, Conjectured sum: 370
 n = 160, Conjectured sum: 429
 n = 161, Conjectured sum: 274
+n = 162, Conjectured sum: 370
