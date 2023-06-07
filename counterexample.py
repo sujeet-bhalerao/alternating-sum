@@ -76,7 +76,7 @@ def conjecture_sum(n):
 
     return total_sum
 
-n_range = range(2, 280)
+n_range = range(2, 300)
 
 sum_values = []
 
