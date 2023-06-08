@@ -18,3 +18,5 @@ The file `Sh,k/Sh-k.py` computes the sum $$S(k) = \sum_{h=1}^{k-1} S(h,k)$$ wher
 The file `Sh,k/Sk_plot.png` is a plot of $$S(k) = \sum_{h=1}^{k-1} S(h,k)$$ vs k.
 
 `Sh,k/sk_values.txt` stores the sum S(k) for each k.
+
+
