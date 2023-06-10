@@ -29,7 +29,7 @@ odd_primes = list(primerange(k_start, k_end + 1))
 results = [number_of_mh_pairs_condition2(k) for k in odd_primes]
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-output_file_path = os.path.join(script_dir, "q2_pairs_count.txt")
+output_file_path = os.path.join(script_dir, "q2_pairs_count-no-pairs-listed.txt")
 
 with open(output_file_path, "w") as output_file:
     output_file.write("Results for k, Satisfying Condition 2, Not Satisfying Condition 2, m_limit, and h_limit\n")
@@ -41,15 +41,7 @@ with open(output_file_path, "w") as output_file:
         output_file.write("------------------\n")
         output_file.write(f"Satisfying q2 condition: {satisfying_count}\n")
         
-        output_file.write(f"Not Satisfying a2 condition : {not_satisfying_count}\n")
-        output_file.write("Satisfying Pairs: ")
-        for pair in satisfying_pairs:
-            output_file.write(f"{pair} ")
-        output_file.write("\n")
-        output_file.write("Unsatisfying Pairs: ")
-        for pair in unsatisfying_pairs:
-            output_file.write(f"{pair} ")
-        output_file.write("\n")
+        output_file.write(f"Not Satisfying q2 condition : {not_satisfying_count}\n")
         output_file.write(f"m_limit: m < {m_limit}\n")
         output_file.write(f"h_limit: h <= {h_limit}\n")
         output_file.write("\n")
