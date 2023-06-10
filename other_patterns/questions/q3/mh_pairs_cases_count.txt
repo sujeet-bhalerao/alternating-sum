@@ -1,0 +1,754 @@
+Results for k, Both conditions, One condition, Neither condition, m_limit, and h_limit
+============================================================================================
+Results for k = 3
+------------------
+Both conditions    : 0
+One condition       : 0
+Neither condition  : 0
+m_limit: m < 1.0
+h_limit: h <= 1
+
+Results for k = 5
+------------------
+Both conditions    : 1
+One condition       : 1
+Neither condition  : 0
+m_limit: m < 1.5
+h_limit: h <= 2
+
+Results for k = 7
+------------------
+Both conditions    : 2
+One condition       : 1
+Neither condition  : 0
+m_limit: m < 2.0
+h_limit: h <= 3
+
+Results for k = 11
+------------------
+Both conditions    : 5
+One condition       : 4
+Neither condition  : 1
+m_limit: m < 3.0
+h_limit: h <= 5
+
+Results for k = 13
+------------------
+Both conditions    : 10
+One condition       : 6
+Neither condition  : 2
+m_limit: m < 3.5
+h_limit: h <= 6
+
+Results for k = 17
+------------------
+Both conditions    : 15
+One condition       : 13
+Neither condition  : 4
+m_limit: m < 4.5
+h_limit: h <= 8
+
+Results for k = 19
+------------------
+Both conditions    : 20
+One condition       : 11
+Neither condition  : 5
+m_limit: m < 5.0
+h_limit: h <= 9
+
+Results for k = 23
+------------------
+Both conditions    : 27
+One condition       : 17
+Neither condition  : 11
+m_limit: m < 6.0
+h_limit: h <= 11
+
+Results for k = 29
+------------------
+Both conditions    : 47
+One condition       : 33
+Neither condition  : 18
+m_limit: m < 7.5
+h_limit: h <= 14
+
+Results for k = 31
+------------------
+Both conditions    : 58
+One condition       : 28
+Neither condition  : 19
+m_limit: m < 8.0
+h_limit: h <= 15
+
+Results for k = 37
+------------------
+Both conditions    : 85
+One condition       : 47
+Neither condition  : 30
+m_limit: m < 9.5
+h_limit: h <= 18
+
+Results for k = 41
+------------------
+Both conditions    : 99
+One condition       : 63
+Neither condition  : 38
+m_limit: m < 10.5
+h_limit: h <= 20
+
+Results for k = 43
+------------------
+Both conditions    : 111
+One condition       : 58
+Neither condition  : 41
+m_limit: m < 11.0
+h_limit: h <= 21
+
+Results for k = 47
+------------------
+Both conditions    : 127
+One condition       : 72
+Neither condition  : 54
+m_limit: m < 12.0
+h_limit: h <= 23
+
+Results for k = 53
+------------------
+Both conditions    : 168
+One condition       : 96
+Neither condition  : 74
+m_limit: m < 13.5
+h_limit: h <= 26
+
+Results for k = 59
+------------------
+Both conditions    : 199
+One condition       : 119
+Neither condition  : 88
+m_limit: m < 15.0
+h_limit: h <= 29
+
+Results for k = 61
+------------------
+Both conditions    : 237
+One condition       : 121
+Neither condition  : 92
+m_limit: m < 15.5
+h_limit: h <= 30
+
+Results for k = 67
+------------------
+Both conditions    : 272
+One condition       : 147
+Neither condition  : 109
+m_limit: m < 17.0
+h_limit: h <= 33
+
+Results for k = 71
+------------------
+Both conditions    : 301
+One condition       : 161
+Neither condition  : 133
+m_limit: m < 18.0
+h_limit: h <= 35
+
+Results for k = 73
+------------------
+Both conditions    : 336
+One condition       : 178
+Neither condition  : 134
+m_limit: m < 18.5
+h_limit: h <= 36
+
+Results for k = 79
+------------------
+Both conditions    : 375
+One condition       : 196
+Neither condition  : 170
+m_limit: m < 20.0
+h_limit: h <= 39
+
+Results for k = 83
+------------------
+Both conditions    : 404
+One condition       : 228
+Neither condition  : 188
+m_limit: m < 21.0
+h_limit: h <= 41
+
+Results for k = 89
+------------------
+Both conditions    : 480
+One condition       : 276
+Neither condition  : 212
+m_limit: m < 22.5
+h_limit: h <= 44
+
+Results for k = 97
+------------------
+Both conditions    : 581
+One condition       : 327
+Neither condition  : 244
+m_limit: m < 24.5
+h_limit: h <= 48
+
+Results for k = 101
+------------------
+Both conditions    : 622
+One condition       : 352
+Neither condition  : 276
+m_limit: m < 25.5
+h_limit: h <= 50
+
+Results for k = 103
+------------------
+Both conditions    : 654
+One condition       : 339
+Neither condition  : 282
+m_limit: m < 26.0
+h_limit: h <= 51
+
+Results for k = 107
+------------------
+Both conditions    : 673
+One condition       : 397
+Neither condition  : 308
+m_limit: m < 27.0
+h_limit: h <= 53
+
+Results for k = 109
+------------------
+Both conditions    : 735
+One condition       : 395
+Neither condition  : 328
+m_limit: m < 27.5
+h_limit: h <= 54
+
+Results for k = 113
+------------------
+Both conditions    : 786
+One condition       : 426
+Neither condition  : 356
+m_limit: m < 28.5
+h_limit: h <= 56
+
+Results for k = 127
+------------------
+Both conditions    : 1003
+One condition       : 500
+Neither condition  : 450
+m_limit: m < 32.0
+h_limit: h <= 63
+
+Results for k = 131
+------------------
+Both conditions    : 1044
+One condition       : 561
+Neither condition  : 475
+m_limit: m < 33.0
+h_limit: h <= 65
+
+Results for k = 137
+------------------
+Both conditions    : 1149
+One condition       : 631
+Neither condition  : 532
+m_limit: m < 34.5
+h_limit: h <= 68
+
+Results for k = 139
+------------------
+Both conditions    : 1177
+One condition       : 629
+Neither condition  : 540
+m_limit: m < 35.0
+h_limit: h <= 69
+
+Results for k = 149
+------------------
+Both conditions    : 1346
+One condition       : 742
+Neither condition  : 650
+m_limit: m < 37.5
+h_limit: h <= 74
+
+Results for k = 151
+------------------
+Both conditions    : 1413
+One condition       : 717
+Neither condition  : 645
+m_limit: m < 38.0
+h_limit: h <= 75
+
+Results for k = 157
+------------------
+Both conditions    : 1541
+One condition       : 809
+Neither condition  : 692
+m_limit: m < 39.5
+h_limit: h <= 78
+
+Results for k = 163
+------------------
+Both conditions    : 1642
+One condition       : 845
+Neither condition  : 753
+m_limit: m < 41.0
+h_limit: h <= 81
+
+Results for k = 167
+------------------
+Both conditions    : 1681
+One condition       : 907
+Neither condition  : 815
+m_limit: m < 42.0
+h_limit: h <= 83
+
+Results for k = 173
+------------------
+Both conditions    : 1847
+One condition       : 983
+Neither condition  : 868
+m_limit: m < 43.5
+h_limit: h <= 86
+
+Results for k = 179
+------------------
+Both conditions    : 1936
+One condition       : 1033
+Neither condition  : 947
+m_limit: m < 45.0
+h_limit: h <= 89
+
+Results for k = 181
+------------------
+Both conditions    : 2047
+One condition       : 1071
+Neither condition  : 932
+m_limit: m < 45.5
+h_limit: h <= 90
+
+Results for k = 191
+------------------
+Both conditions    : 2241
+One condition       : 1158
+Neither condition  : 1066
+m_limit: m < 48.0
+h_limit: h <= 95
+
+Results for k = 193
+------------------
+Both conditions    : 2335
+One condition       : 1213
+Neither condition  : 1060
+m_limit: m < 48.5
+h_limit: h <= 96
+
+Results for k = 197
+------------------
+Both conditions    : 2377
+One condition       : 1293
+Neither condition  : 1132
+m_limit: m < 49.5
+h_limit: h <= 98
+
+Results for k = 199
+------------------
+Both conditions    : 2444
+One condition       : 1259
+Neither condition  : 1148
+m_limit: m < 50.0
+h_limit: h <= 99
+
+Results for k = 211
+------------------
+Both conditions    : 2774
+One condition       : 1402
+Neither condition  : 1284
+m_limit: m < 53.0
+h_limit: h <= 105
+
+Results for k = 223
+------------------
+Both conditions    : 3074
+One condition       : 1570
+Neither condition  : 1461
+m_limit: m < 56.0
+h_limit: h <= 111
+
+Results for k = 227
+------------------
+Both conditions    : 3146
+One condition       : 1699
+Neither condition  : 1483
+m_limit: m < 57.0
+h_limit: h <= 113
+
+Results for k = 229
+------------------
+Both conditions    : 3285
+One condition       : 1685
+Neither condition  : 1528
+m_limit: m < 57.5
+h_limit: h <= 114
+
+Results for k = 233
+------------------
+Both conditions    : 3328
+One condition       : 1782
+Neither condition  : 1618
+m_limit: m < 58.5
+h_limit: h <= 116
+
+Results for k = 239
+------------------
+Both conditions    : 3500
+One condition       : 1812
+Neither condition  : 1709
+m_limit: m < 60.0
+h_limit: h <= 119
+
+Results for k = 241
+------------------
+Both conditions    : 3643
+One condition       : 1891
+Neither condition  : 1666
+m_limit: m < 60.5
+h_limit: h <= 120
+
+Results for k = 251
+------------------
+Both conditions    : 3869
+One condition       : 2023
+Neither condition  : 1858
+m_limit: m < 63.0
+h_limit: h <= 125
+
+Results for k = 257
+------------------
+Both conditions    : 4096
+One condition       : 2156
+Neither condition  : 1940
+m_limit: m < 64.5
+h_limit: h <= 128
+
+Results for k = 263
+------------------
+Both conditions    : 4236
+One condition       : 2217
+Neither condition  : 2062
+m_limit: m < 66.0
+h_limit: h <= 131
+
+Results for k = 269
+------------------
+Both conditions    : 4459
+One condition       : 2391
+Neither condition  : 2128
+m_limit: m < 67.5
+h_limit: h <= 134
+
+Results for k = 271
+------------------
+Both conditions    : 4590
+One condition       : 2292
+Neither condition  : 2163
+m_limit: m < 68.0
+h_limit: h <= 135
+
+Results for k = 277
+------------------
+Both conditions    : 4784
+One condition       : 2462
+Neither condition  : 2276
+m_limit: m < 69.5
+h_limit: h <= 138
+
+Results for k = 281
+------------------
+Both conditions    : 4908
+One condition       : 2576
+Neither condition  : 2316
+m_limit: m < 70.5
+h_limit: h <= 140
+
+Results for k = 283
+------------------
+Both conditions    : 4977
+One condition       : 2549
+Neither condition  : 2344
+m_limit: m < 71.0
+h_limit: h <= 141
+
+Results for k = 293
+------------------
+Both conditions    : 5301
+One condition       : 2761
+Neither condition  : 2596
+m_limit: m < 73.5
+h_limit: h <= 146
+
+Results for k = 307
+------------------
+Both conditions    : 5846
+One condition       : 3002
+Neither condition  : 2780
+m_limit: m < 77.0
+h_limit: h <= 153
+
+Results for k = 311
+------------------
+Both conditions    : 5973
+One condition       : 3071
+Neither condition  : 2891
+m_limit: m < 78.0
+h_limit: h <= 155
+
+Results for k = 313
+------------------
+Both conditions    : 6159
+One condition       : 3127
+Neither condition  : 2882
+m_limit: m < 78.5
+h_limit: h <= 156
+
+Results for k = 317
+------------------
+Both conditions    : 6212
+One condition       : 3272
+Neither condition  : 2998
+m_limit: m < 79.5
+h_limit: h <= 158
+
+Results for k = 331
+------------------
+Both conditions    : 6823
+One condition       : 3475
+Neither condition  : 3232
+m_limit: m < 83.0
+h_limit: h <= 165
+
+Results for k = 337
+------------------
+Both conditions    : 7082
+One condition       : 3698
+Neither condition  : 3332
+m_limit: m < 84.5
+h_limit: h <= 168
+
+Results for k = 347
+------------------
+Both conditions    : 7409
+One condition       : 3866
+Neither condition  : 3603
+m_limit: m < 87.0
+h_limit: h <= 173
+
+Results for k = 349
+------------------
+Both conditions    : 7587
+One condition       : 3891
+Neither condition  : 3660
+m_limit: m < 87.5
+h_limit: h <= 174
+
+Results for k = 353
+------------------
+Both conditions    : 7752
+One condition       : 4032
+Neither condition  : 3704
+m_limit: m < 88.5
+h_limit: h <= 176
+
+Results for k = 359
+------------------
+Both conditions    : 7907
+One condition       : 4109
+Neither condition  : 3915
+m_limit: m < 90.0
+h_limit: h <= 179
+
+Results for k = 367
+------------------
+Both conditions    : 8361
+One condition       : 4272
+Neither condition  : 4020
+m_limit: m < 92.0
+h_limit: h <= 183
+
+Results for k = 373
+------------------
+Both conditions    : 8685
+One condition       : 4409
+Neither condition  : 4204
+m_limit: m < 93.5
+h_limit: h <= 186
+
+Results for k = 379
+------------------
+Both conditions    : 8961
+One condition       : 4541
+Neither condition  : 4264
+m_limit: m < 95.0
+h_limit: h <= 189
+
+Results for k = 383
+------------------
+Both conditions    : 9095
+One condition       : 4610
+Neither condition  : 4440
+m_limit: m < 96.0
+h_limit: h <= 191
+
+Results for k = 389
+------------------
+Both conditions    : 9388
+One condition       : 4866
+Neither condition  : 4564
+m_limit: m < 97.5
+h_limit: h <= 194
+
+Results for k = 397
+------------------
+Both conditions    : 9893
+One condition       : 4997
+Neither condition  : 4712
+m_limit: m < 99.5
+h_limit: h <= 198
+
+Results for k = 401
+------------------
+Both conditions    : 9997
+One condition       : 5191
+Neither condition  : 4812
+m_limit: m < 100.5
+h_limit: h <= 200
+
+Results for k = 409
+------------------
+Both conditions    : 10421
+One condition       : 5401
+Neither condition  : 4986
+m_limit: m < 102.5
+h_limit: h <= 204
+
+Results for k = 419
+------------------
+Both conditions    : 10818
+One condition       : 5601
+Neither condition  : 5317
+m_limit: m < 105.0
+h_limit: h <= 209
+
+Results for k = 421
+------------------
+Both conditions    : 11127
+One condition       : 5613
+Neither condition  : 5310
+m_limit: m < 105.5
+h_limit: h <= 210
+
+Results for k = 431
+------------------
+Both conditions    : 11491
+One condition       : 5876
+Neither condition  : 5638
+m_limit: m < 108.0
+h_limit: h <= 215
+
+Results for k = 433
+------------------
+Both conditions    : 11709
+One condition       : 6033
+Neither condition  : 5586
+m_limit: m < 108.5
+h_limit: h <= 216
+
+Results for k = 439
+------------------
+Both conditions    : 11955
+One condition       : 6079
+Neither condition  : 5837
+m_limit: m < 110.0
+h_limit: h <= 219
+
+Results for k = 443
+------------------
+Both conditions    : 12137
+One condition       : 6250
+Neither condition  : 5923
+m_limit: m < 111.0
+h_limit: h <= 221
+
+Results for k = 449
+------------------
+Both conditions    : 12527
+One condition       : 6515
+Neither condition  : 6046
+m_limit: m < 112.5
+h_limit: h <= 224
+
+Results for k = 457
+------------------
+Both conditions    : 13031
+One condition       : 6685
+Neither condition  : 6276
+m_limit: m < 114.5
+h_limit: h <= 228
+
+Results for k = 461
+------------------
+Both conditions    : 13175
+One condition       : 6897
+Neither condition  : 6378
+m_limit: m < 115.5
+h_limit: h <= 230
+
+Results for k = 463
+------------------
+Both conditions    : 13392
+One condition       : 6740
+Neither condition  : 6433
+m_limit: m < 116.0
+h_limit: h <= 231
+
+Results for k = 467
+------------------
+Both conditions    : 13502
+One condition       : 6968
+Neither condition  : 6558
+m_limit: m < 117.0
+h_limit: h <= 233
+
+Results for k = 479
+------------------
+Both conditions    : 14187
+One condition       : 7242
+Neither condition  : 7012
+m_limit: m < 120.0
+h_limit: h <= 239
+
+Results for k = 487
+------------------
+Both conditions    : 14743
+One condition       : 7519
+Neither condition  : 7141
+m_limit: m < 122.0
+h_limit: h <= 243
+
+Results for k = 491
+------------------
+Both conditions    : 14987
+One condition       : 7622
+Neither condition  : 7281
+m_limit: m < 123.0
+h_limit: h <= 245
+
+Results for k = 499
+------------------
+Both conditions    : 15460
+One condition       : 7896
+Neither condition  : 7520
+m_limit: m < 125.0
+h_limit: h <= 249
+
