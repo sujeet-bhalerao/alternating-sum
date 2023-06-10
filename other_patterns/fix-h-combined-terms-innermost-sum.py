@@ -11,7 +11,7 @@ def sum_terms_with_components(h, k, l):
     return term1 + term2, term1, term2
 
 k_start = 3
-k_end = 300
+k_end = 50
 odd_primes = list(range(k_start, k_end + 1))
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
