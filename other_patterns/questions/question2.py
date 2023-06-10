@@ -30,7 +30,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 output_file_path = os.path.join(script_dir, "q2_pairs_count.txt")
 
 with open(output_file_path, "w") as output_file:
-    output_file.write("k\tSatisfying Condition 2\tNot Satisfying Condition 2\n")
+    output_file.write("k\tSatisfying condition 2\tNot Satisfying condition 2\n")
     for k, (satisfying_count, not_satisfying_count, satisfying_pairs) in zip(odd_primes, results):
         output_file.write(f"{k}\t{satisfying_count}\t{not_satisfying_count}\n")
         output_file.write("Satisfying Pairs: ")
