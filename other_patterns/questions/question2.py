@@ -37,5 +37,3 @@ with open(output_file_path, "w") as output_file:
         for pair in satisfying_pairs:
             output_file.write(f"{pair} ")
         output_file.write("\n")
-
-print("Results saved to", output_file_path)
