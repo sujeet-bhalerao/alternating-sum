@@ -1,5 +1,3 @@
-Results for k, Both conditions, One condition, Neither condition, m_limit, and h_limit
-============================================================================================
 Results for k = 3
 ------------------
 Both conditions    : 0

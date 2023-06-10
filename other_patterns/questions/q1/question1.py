@@ -33,8 +33,6 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 output_file_path = os.path.join(script_dir, "q1_pairs_count-no-pairs-listed.txt")
 
 with open(output_file_path, "w") as output_file:
-    output_file.write("Results for k, Satisfying Condition 1, Not Satisfying Condition 1, m_limit, and h_limit\n")
-    output_file.write("============================================================================================\n")
     for k, (satisfying_count, not_satisfying_count, satisfying_pairs, unsatisfying_pairs) in zip(odd_primes, results):
         m_limit = (k + 1) / 4
         h_limit = (k - 1) // 2

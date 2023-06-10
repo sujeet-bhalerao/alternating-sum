@@ -35,8 +35,6 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 output_file_path = os.path.join(script_dir, "mh_pairs_cases_count.txt")
 
 with open(output_file_path, "w") as output_file:
-    output_file.write("Results for k, Both conditions, One condition, Neither condition, m_limit, and h_limit\n")
-    output_file.write("============================================================================================\n")
     for k, case_counts in zip(odd_primes, results):
         m_limit = (k + 1) / 4
         h_limit = (k - 1) // 2

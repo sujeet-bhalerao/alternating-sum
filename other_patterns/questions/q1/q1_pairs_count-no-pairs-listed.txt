@@ -1,5 +1,3 @@
-Results for k, Satisfying Condition 1, Not Satisfying Condition 1, m_limit, and h_limit
-============================================================================================
 Results for k = 3
 ------------------
 Satisfying q1 condition: 0
