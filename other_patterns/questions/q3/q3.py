@@ -45,6 +45,6 @@ with open(output_file_path, "w") as output_file:
         output_file.write(f"Both conditions    : {case_counts['both']}\n")
         output_file.write(f"One condition       : {case_counts['one']}\n")
         output_file.write(f"Neither condition  : {case_counts['neither']}\n")
-        output_file.write(f"m_limit: m < {m_limit}\n")
-        output_file.write(f"h_limit: h <= {h_limit}\n")
+        #output_file.write(f"m_limit: m < {m_limit}\n")
+        #output_file.write(f"h_limit: h <= {h_limit}\n")
         output_file.write("\n")
