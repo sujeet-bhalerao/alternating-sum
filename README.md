@@ -114,7 +114,11 @@ The output is stored in the text file `other_patterns/fixed-h-combined_terms_wit
 
 #### `other_patterns/sum2.py`
 
-This file makes the plot `sum2_vs_k_plot_odd_primes_and_k.png`, which is a plot of $$ S(k) = \sum_{m=1}^{k-1}S(m, k) = -{(k - 1)}^2 + 4\sum_{{l=1}}^{{k-1}}\sum_{{h=1}}^{{k-1}}(\{\frac{{2hl}}{k}\} + \{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\})$$ vs $k$ for odd primes $k$ up to $5000$. The plot also includes the line $y = k$ and $y = 2k$, which seem to be lower bounds for $S(k)$ when $k$ is an odd prime up to $5000$.
+This file makes the plot `sum2_vs_k_plot_odd_primes_and_k.png`, which is a plot of 
+
+$$ S(k) = \sum_{m=1}^{k-1}S(m, k) = -{(k - 1)}^2 + 4\sum_{{l=1}}^{{k-1}}\sum_{{h=1}}^{{k-1}}(\{\frac{{2hl}}{k}\} + \{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\}) $$
+
+ vs $k$ for odd primes $k$ up to $5000$. The plot also includes the line $y = k$ and $y = 2k$, which seem to be lower bounds for $S(k)$ when $k$ is an odd prime up to $5000$.
 
 <br>
 
