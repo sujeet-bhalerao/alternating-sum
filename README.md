@@ -77,8 +77,8 @@ For a given odd prime $k$ less than $300$, integers $h$ and $l$ range from $1$ t
 
 The two terms computed for each $h$ and $l$ are:
 
-1. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2hl%7D%7Bk%7D%5Cright%5C%7D)
-2. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7Bh%282l-1%29%7D%7Bk%7D%20-%200.5%5Cright%5C%7D)
+1. $\left\{\frac{2hl}{k}\right\}$
+2. $\left\{\frac{h(2l-1)}{k} - 0.5\right\}$
 
 where $\{\cdot\}$ represents the fractional part of a number.
 
@@ -98,8 +98,12 @@ For a given integer $k$ between $3$ and $50$, the script defines integers $h$ an
 
 - $h$ and $l$ iterate from 1 to $\frac{k-1}{2}$.
 
-The two terms computed for each $h$ and $l$ are the same as in `other_patterns/combined-terms-innermost-sum.py`.
+The two terms computed for each $h$ and $l$ are:
 
+1. $\left\{\frac{2hl}{k}\right\}$
+2. $\left\{\frac{h(2l-1)}{k} - 0.5\right\}$
+
+where $\{\cdot\}$ represents the fractional part of a number.
 
 For every $l$ value, there is an $l'$ such that the sum of their indices in the $l$-range sequence is `num_l_values - 1`. The script computes a 'combined term' for each $l$ and $l'$ pair, which is defined as the sum of terms for $l$ and $l'$.
 
@@ -136,7 +140,7 @@ For given odd prime $k$ up to $501$ , the possible values of $m$ and $h$ are def
 - $h$ iterates from $1$ through $\frac{k-1}{2}$.
 
 Each $(m,h)$ pair is evaluated against the following condition:
-![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%5Cgeq%20%5Cleft%5C%7B%5Cfrac%7Bh%7D%7Bk%7D%5Cright%5C%7D) and ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%3E%200.5)
+$\left\{\frac{2mh}{k}\right\} \geq \left\{\frac{h}{k}\right\}$ and $\left\{\frac{2mh}{k}\right\} > 0.5$
 where $\{x\}$ denotes the fractional part of a real number $x$.
 
 For each prime $k$, the script calculates and records:
@@ -180,8 +184,8 @@ For given odd prime $k$ up to $501$ , this file iterates integers $m$ and $h$ as
 - $h$ iterates from $1$ through $\frac{k-1}{2}$.
 
 The script checks each $(m,h)$ pair against two conditions:
-1. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%5Cgeq%20%5Cleft%5C%7B%5Cfrac%7Bh%7D%7Bk%7D%5Cright%5C%7D),
-2. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%26gt%3B%200.5),
+1. $\left\{\frac{2mh}{k}\right\} \geq \left\{\frac{h}{k}\right\}$,
+2. $\left\{\frac{2mh}{k}\right\} > 0.5$,
 
 where $\{x\}$ denotes the fractional part of a real number $x$.
 
