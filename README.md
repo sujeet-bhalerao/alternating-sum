@@ -51,7 +51,7 @@ The two files `combined-terms-innermost-sum.py` and
 
 Meyer's notes show $S(h,k)$ satisfies, for odd prime $k$,
 
-![Sh,k](http://latex.codecogs.com/gif.latex?S%28k%29%20%3D%20%5Csum_%7Bm%3D1%7D%5E%7Bk-1%7DS%28m%2C%20k%29%20%3D%20-%7B%28k%20-%201%29%7D%5E2%20&plus;%204%5Csum_%7B%7Bl%3D1%7D%7D%5E%7B%7Bk-1%7D%7D%5Csum_%7B%7Bh%3D1%7D%7D%5E%7B%7Bk-1%7D%7D%5Cleft%28%5Cleft%5C%7B%5Cfrac%7B%7B2hl%7D%7D%7Bk%7D%5Cright%5C%7D%20&plus;%20%5Cleft%5C%7B%5Cfrac%7B%7Bh%282l%20-%201%29%7D%7D%7Bk%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%5Cright%5C%7D%5Cright%29)
+![](http://latex.codecogs.com/gif.latex?S%28k%29%20%3D%20%5Csum_%7Bm%3D1%7D%5E%7Bk-1%7DS%28m%2C%20k%29%20%3D%20-%7B%28k%20-%201%29%7D%5E2%20&plus;%204%5Csum_%7B%7Bl%3D1%7D%7D%5E%7B%7Bk-1%7D%7D%5Csum_%7B%7Bh%3D1%7D%7D%5E%7B%7Bk-1%7D%7D%5Cleft%28%5Cleft%5C%7B%5Cfrac%7B%7B2hl%7D%7D%7Bk%7D%5Cright%5C%7D%20&plus;%20%5Cleft%5C%7B%5Cfrac%7B%7Bh%282l%20-%201%29%7D%7D%7Bk%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%5Cright%5C%7D%5Cright%29)
 
 The conjecture is that if the summand inside the double sum is denoted 
 ![f(h,l)](http://latex.codecogs.com/gif.latex?f%28h%2Cl%29%20%3D%20%5Cleft%28%5Cleft%5C%7B%5Cfrac%7B%7B2hl%7D%7D%7Bk%7D%5Cright%5C%7D%20&plus;%20%5Cleft%5C%7B%5Cfrac%7B%7Bh%282l%20-%201%29%7D%7D%7Bk%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%5Cright%5C%7D%5Cright%29%2C)
@@ -77,8 +77,8 @@ For a given odd prime $k$ less than $300$, integers $h$ and $l$ range from $1$ t
 
 The two terms computed for each $h$ and $l$ are:
 
-1. ![term1](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2hl%7D%7Bk%7D%5Cright%5C%7D)
-2. ![term2](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7Bh%282l-1%29%7D%7Bk%7D%20-%200.5%5Cright%5C%7D)
+1. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2hl%7D%7Bk%7D%5Cright%5C%7D)
+2. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7Bh%282l-1%29%7D%7Bk%7D%20-%200.5%5Cright%5C%7D)
 
 where $\{\cdot\}$ represents the fractional part of a number.
 
@@ -136,7 +136,7 @@ For given odd prime $k$ up to $501$ , the possible values of $m$ and $h$ are def
 - $h$ iterates from $1$ through $\frac{k-1}{2}$.
 
 Each $(m,h)$ pair is evaluated against the following condition:
-![condition1](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%5Cgeq%20%5Cleft%5C%7B%5Cfrac%7Bh%7D%7Bk%7D%5Cright%5C%7D) and ![condition2](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%3E%200.5)
+![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%5Cgeq%20%5Cleft%5C%7B%5Cfrac%7Bh%7D%7Bk%7D%5Cright%5C%7D) and ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%3E%200.5)
 where $\{x\}$ denotes the fractional part of a real number $x$.
 
 For each prime $k$, the script calculates and records:
@@ -180,8 +180,8 @@ For given odd prime $k$ up to $501$ , this file iterates integers $m$ and $h$ as
 - $h$ iterates from $1$ through $\frac{k-1}{2}$.
 
 The script checks each $(m,h)$ pair against two conditions:
-1. ![1](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%5Cgeq%20%5Cleft%5C%7B%5Cfrac%7Bh%7D%7Bk%7D%5Cright%5C%7D),
-2. ![2](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%26gt%3B%200.5),
+1. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%5Cgeq%20%5Cleft%5C%7B%5Cfrac%7Bh%7D%7Bk%7D%5Cright%5C%7D),
+2. ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cfrac%7B2mh%7D%7Bk%7D%5Cright%5C%7D%20%26gt%3B%200.5),
 
 where $\{x\}$ denotes the fractional part of a real number $x$.
 
