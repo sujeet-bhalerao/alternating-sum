@@ -77,8 +77,8 @@ For a given odd prime $k$ less than $300$, integers $h$ and $l$ range from $1$ t
 
 The two terms computed for each $h$ and $l$ are:
 
-1. $\left\{\frac{2hl}{k}\right\}$
-2. $\left\{\frac{h(2l-1)}{k} - 0.5\right\}$
+1. {$\frac{2hl}{k}$}
+2. {$\frac{h(2l-1)}{k} - 0.5$}
 
 where $\{\cdot\}$ represents the fractional part of a number.
 
@@ -100,8 +100,8 @@ For a given integer $k$ between $3$ and $50$, the script defines integers $h$ an
 
 The two terms computed for each $h$ and $l$ are:
 
-1. $\left\{\frac{2hl}{k}\right\}$
-2. $\left\{\frac{h(2l-1)}{k} - 0.5\right\}$
+1. {$\frac{2hl}{k}$}
+2. {$\frac{h(2l-1)}{k} - 0.5$}
 
 where $\{\cdot\}$ represents the fractional part of a number.
 
@@ -135,18 +135,18 @@ The three folders `other_patterns/q1` and `other_patterns/q2` and `other_pattern
 <details>
 <summary>Click to expand explanation of `q1.py`.</summary>
 
-For given odd prime $k$ up to $501$ , the possible values of $m$ and $h$ are defined as follows:
-- $m$ iterates from 1 to $\lceil\frac{k+1}{4}\rceil$,
-- $h$ iterates from $1$ through $\frac{k-1}{2}$.
+For given odd prime `k` up to `501` , the possible values of `m` and `h` are defined as follows:
+- `m` iterates from 1 to ceil((k+1)/4),
+- `h` iterates from `1` through (k-1)/2.
 
-Each $(m,h)$ pair is evaluated against the following condition:
-$\left\{\frac{2mh}{k}\right\} \geq \left\{\frac{h}{k}\right\}$ and $\left\{\frac{2mh}{k}\right\} > 0.5$
-where $\{x\}$ denotes the fractional part of a real number $x$.
+Each (m,h) pair is evaluated against the following condition:
+{2mh/k} >= {h/k} and {2mh/k} > 0.5
+where `{x}` denotes the fractional part of a real number `x`.
 
-For each prime $k$, the script calculates and records:
-1. The total count of $(m,h)$ pairs that fulfill the condition,
-2. The total count of $(m,h)$ pairs that do not meet the condition,
-3. The upper bounds for both $m$ and $h$.
+For each prime `k`, the script calculates and records:
+1. The total count of (m,h) pairs that fulfill the condition,
+2. The total count of (m,h) pairs that do not meet the condition,
+3. The upper bounds for both `m` and `h`.
 
 </details>
 
@@ -155,20 +155,19 @@ For each prime $k$, the script calculates and records:
 <details>
 <summary>Click to expand explanation of `q2.py`.</summary>
 
+For given odd prime `k` up to `501`, integers `m` and `h` are defined as follows:
 
-For given odd prime $k$ up to $501$, integers $m$ and $h$ are defined as follows:
+- `m` ranges from 1 to ceil((k+1)/4),
+- `h` ranges from `1` to (k-1)/2.
 
-- $m$ ranges from 1 to $\lceil\frac{k+1}{4}\rceil$,
-- $h$ ranges from $1$ to $\frac{k-1}{2}$.
+Each (m,h) pair is checked against the following condition:
+{2mh/k} > 0.5,
+where `{x}` denotes the fractional part of a real number `x`.
 
-Each $(m,h)$ pair is checked against the following condition:
-$$ \left\{\frac{2mh}{k}\right\} > 0.5,$$
-where ${x}$ denotes the fractional part of a real number $x$.
+For each prime `k`, the script calculates and records:
 
-For each prime $k$, the script calculates and records:
-
-1. The total count of $(m,h)$ pairs that meet the condition,
-2. The total count of $(m,h)$ pairs that do not meet the condition.
+1. The total count of (m,h) pairs that meet the condition,
+2. The total count of (m,h) pairs that do not meet the condition.
 
 </details>
 
@@ -178,21 +177,19 @@ For each prime $k$, the script calculates and records:
 <details>
 <summary>Click to expand explanation of `q3.py`.</summary>
 
-For given odd prime $k$ up to $501$ , this file iterates integers $m$ and $h$ as defined below:
+For given odd prime `k` up to `501` , this file iterates integers `m` and `h` as defined below:
 
-- $m$ iterates from 1 to $\lceil\frac{k+1}{4}\rceil$,
-- $h$ iterates from $1$ through $\frac{k-1}{2}$.
+- `m` iterates from 1 to ceil((k+1)/4),
+- `h` iterates from `1` through (k-1)/2.
 
-The script checks each $(m,h)$ pair against two conditions:
-1. $\left\{\frac{2mh}{k}\right\} \geq \left\{\frac{h}{k}\right\}$,
-2. $\left\{\frac{2mh}{k}\right\} > 0.5$,
+The script checks each (m,h) pair against two conditions:
+1. {2mh/k} >= {h/k},
+2. {2mh/k} > 0.5,
 
-where $\{x\}$ denotes the fractional part of a real number $x$.
+where `{x}` denotes the fractional part of a real number `x`.
 
-For each prime $k$, the script tabulates:
-1. Count of $(m,h)$ pairs that satisfy both conditions,
-2. Count of $(m,h)$ pairs that satisfy only one of the conditions,
-3. Count of $(m,h)$ pairs that do not satisfy either condition.
-
-
+For each prime `k`, the script tabulates:
+1. Count of (m,h) pairs that satisfy both conditions,
+2. Count of (m,h) pairs that satisfy only one of the conditions,
+3. Count of (m,h) pairs that do not satisfy either condition.
 </details>
