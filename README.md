@@ -51,7 +51,7 @@ The two files `combined-terms-innermost-sum.py` and
 
 Meyer's notes show $S(h,k)$ satisfies, for odd prime $k$,
 
-![S(k)](http://latex.codecogs.com/gif.latex?S%28k%29%20%3D%20-%7B%28k%20-%201%29%7D%5E2%20&plus;%204%5Csum_%7Bl%3D1%7D%5E%7Bk-1%7D%5Csum_%7Bh%3D1%7D%5E%7Bk-1%7D%5Cleft%28%5Cleft%5C%7B%5Cfrac%7B2hl%7D%7Bk%7D%5Cright%5C%7D%20&plus;%20%5Cleft%5C%7B%5Cfrac%7Bh%282l%20-%201%29%7D%7Bk%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%5Cright%5C%7D%5Cright%29)
+![](http://latex.codecogs.com/gif.latex?S%28k%29%20%3D%20%5Csum_%7Bm%3D1%7D%5E%7Bk-1%7DS%28m%2C%20k%29%20%3D%20-%7B%28k%20-%201%29%7D%5E2%20&plus;%204%5Csum_%7B%7Bl%3D1%7D%7D%5E%7B%7Bk-1%7D%7D%5Csum_%7B%7Bh%3D1%7D%7D%5E%7B%7Bk-1%7D%7D%5Cleft%28%5Cleft%5C%7B%5Cfrac%7B%7B2hl%7D%7D%7Bk%7D%5Cright%5C%7D%20&plus;%20%5Cleft%5C%7B%5Cfrac%7B%7Bh%282l%20-%201%29%7D%7D%7Bk%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%5Cright%5C%7D%5Cright%29)
 
 The conjecture is that if the summand inside the double sum is denoted 
 ![f(h,l)](http://latex.codecogs.com/gif.latex?f%28h%2Cl%29%20%3D%20%5Cleft%28%5Cleft%5C%7B%5Cfrac%7B%7B2hl%7D%7D%7Bk%7D%5Cright%5C%7D%20&plus;%20%5Cleft%5C%7B%5Cfrac%7B%7Bh%282l%20-%201%29%7D%7D%7Bk%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%5Cright%5C%7D%5Cright%29%2C)
