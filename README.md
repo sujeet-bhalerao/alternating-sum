@@ -51,9 +51,9 @@ The two files `combined-terms-innermost-sum.py` and
 
 Meyer's notes show $S(h,k)$ satisfies, for odd prime $k$,
 
-$$ S(k) = \sum_{m=1}^{k-1}S(m, k) = -{(k - 1)}^2 + 4\sum_{{l=1}}^{{k-1}}\sum_{{h=1}}^{{k-1}}\left(\left\{\frac{{2hl}}{k}\right\} + \left\{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\right\}\right).$$
+$$ S(k) = \sum_{m=1}^{k-1}S(m, k) = -{(k - 1)}^2 + 4\sum_{{l=1}}^{{k-1}}\sum_{{h=1}}^{{k-1}}(\{\frac{{2hl}}{k}\} + \{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\}).$$
 
-The conjecture is that if the summand inside the double sum is denoted $$f(h,l) = \left(\left\{\frac{{2hl}}{k}\right\} + \left\{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\right\}\right),$$
+The conjecture is that if the summand inside the double sum is denoted $$f(h,l) =\{\frac{{2hl}}{k}\} + \{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\},$$
 
 then for $l < \frac{k+1}{4}$, $f(l,h) + f(\frac{k-1}{2} - m + 1, h)$ is an integer. In words, if in the double sum in the above expression for $S(h,k)$ we fix $h$, then pairing the first and the last term in the remaining sum over $l$ and the second and the second-last term, and so on, we obtain an integer.
 
@@ -114,7 +114,7 @@ The output is stored in the text file `other_patterns/fixed-h-combined_terms_wit
 
 #### `other_patterns/sum2.py`
 
-This file makes the plot `sum2_vs_k_plot_odd_primes_and_k.png`, which is a plot of $$ S(k) = \sum_{m=1}^{k-1}S(m, k) = -{(k - 1)}^2 + 4\sum_{{l=1}}^{{k-1}}\sum_{{h=1}}^{{k-1}}\left(\left\{\frac{{2hl}}{k}\right\} + \left\{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\right\}\right)$$ vs $k$ for odd primes $k$ up to $5000$. The plot also includes the line $y = k$ and $y = 2k$, which seem to be lower bounds for $S(k)$ when $k$ is an odd prime up to $5000$.
+This file makes the plot `sum2_vs_k_plot_odd_primes_and_k.png`, which is a plot of $$ S(k) = \sum_{m=1}^{k-1}S(m, k) = -{(k - 1)}^2 + 4\sum_{{l=1}}^{{k-1}}\sum_{{h=1}}^{{k-1}}(\{\frac{{2hl}}{k}\} + \{\frac{{h(2l - 1)}}{k} - \frac{1}{2}\})$$ vs $k$ for odd primes $k$ up to $5000$. The plot also includes the line $y = k$ and $y = 2k$, which seem to be lower bounds for $S(k)$ when $k$ is an odd prime up to $5000$.
 
 <br>
 
