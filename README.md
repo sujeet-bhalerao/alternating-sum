@@ -77,10 +77,10 @@ For a given odd prime $k$ less than $300$, integers $h$ and $l$ range from $1$ t
 
 The two terms computed for each $h$ and $l$ are:
 
-1. {$\frac{2hl}{k}$}
-2. {$\frac{h(2l-1)}{k} - 0.5$}
+1. {2hl / k}
+2. {[h(2l-1) / k] - 0.5}
 
-where $\{\cdot\}$ represents the fractional part of a number.
+where {.} represents the fractional part of a number.
 
 For every $l$ value, there is an $l'$ such that the sum of their indices in the $l$-range sequence is `num_l_values - 1`. The script computes a 'combined term' for each such $l$ and $l'$ pair, defined as the sum of terms for $l$ and $l'$.
 
@@ -100,10 +100,10 @@ For a given integer $k$ between $3$ and $50$, the script defines integers $h$ an
 
 The two terms computed for each $h$ and $l$ are:
 
-1. {$\frac{2hl}{k}$}
-2. {$\frac{h(2l-1)}{k} - 0.5$}
+1. {2hl / k}
+2. {[h(2l-1) / k] - 0.5}
 
-where $\{\cdot\}$ represents the fractional part of a number.
+where {.} represents the fractional part of a number.
 
 For every $l$ value, there is an $l'$ such that the sum of their indices in the $l$-range sequence is `num_l_values - 1`. The script computes a 'combined term' for each $l$ and $l'$ pair, which is defined as the sum of terms for $l$ and $l'$.
 
@@ -139,8 +139,10 @@ For given odd prime `k` up to `501` , the possible values of `m` and `h` are def
 - `m` iterates from 1 to ceil((k+1)/4),
 - `h` iterates from `1` through (k-1)/2.
 
-Each (m,h) pair is evaluated against the following condition:
+Each (m,h) pair is evaluated against the following conditions:
+
 {2mh/k} >= {h/k} and {2mh/k} > 0.5
+
 where `{x}` denotes the fractional part of a real number `x`.
 
 For each prime `k`, the script calculates and records:
